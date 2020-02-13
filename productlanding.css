@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#page-wrap {
+  position: relative;
+}
+
+@media (max-width: 600px) {
+  nav {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+}
+
+header {
+  position: fixed;
+  top: 0;
+  min-height: 100px;
+  padding: 0px 30px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: cream;
+}
+@media (max-width: 500px) {
+  header {
+    flex-wrap: wrap;
+  }
+}
+
+.logo {
+  width: 1000px;
+}
+@media (max-width: 600px) {
+  .logo {
+    margin-top: 10px;
+    width: 100%;
+    position: relative;
+  }
+}
+.logo img {
+  height: 10%;
+  width: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+li {
+  list-style: none;
+}
+
+.container {
+  max-width: 900px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+#address {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  margin-top: 50px;
+}
+#address h1 {
+  margin-bottom: 10px;
+}
+#address input[type="email"] {
+  padding: 5px;
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+  max-width: 1000px;
+}
+
+.grid {
+  display: flex;
+}
+
+#appointments {
+  margin-top: 20px;
+}
+#appointments .icon {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  height: 50px;
+}
+#appointments .info {
+  display: flex;
+  flex-direction: column;
+}
+
+#products {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+#products iframe {
+  width: 100%;
+  max-width: 500px;
+}
+
+#hours {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+#hours .info {
+  display: flex;
+  flex-direction: column;
+}
+#hours .grid {
+  display: flex;
+}

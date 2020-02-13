@@ -1,0 +1,65 @@
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+<head>
+	<link href="productlanding.css" rel="stylesheet" type="text/css">
+</head>
+
+<div id ="page-wrap">
+  <header id ="header">
+    <div class = "logo">
+      <img id = "header-img" src = "https://upload.wikimedia.org/wikipedia/commons/d/d7/Desktop_computer_clipart_-_Yellow_theme.svg" alt = "computer repair service" />
+    </div>
+    
+    <nav id = "nav-bar">
+      <ul>
+        <li><a class ="nav-link" href = "#products">Products</a></li>
+        <li><a class ="nav-link" href = "#appointments">Appointments</a></li>
+        <li><a class ="nav-link" href = "#hours">Hours</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <section id = "address">
+    <h1>Computer repair at your convenience</h1>
+    <form id  = "form" action="https://www.freecodecamp.com/email-submit">
+    <input name="email" id="email" type="email" placeholder="Provide your email address" required/>
+      <input id="submit" type="submit" value= "Sign up" class="btn"></input>
+    </form>
+  </section>
+  
+  <div class = "container">
+    <section id ="appointments">
+      <div class="grid">
+        <div class = "icon">
+        <i class="fa fa-3x fa-address-book"></i>
+        </div>
+      <div class = "info">
+        <h2>Schedule your appointment</h2>
+        <p>Book your appointment today! For whatever your computer needs, we can fix it!</p>
+      </div>
+      </div>
+      <div class = "grid">
+        <div class= "icon">
+          <i class = "fa fa-3x fa-clock-o"></i>
+        </div>
+          <div class = "info">
+          <h2>Solve your malware issues</h2>
+            <p> We will fix your computer issues with viruses and other malware that slow your computer down.</p>
+          </div>
+        </div>
+      </div>    
+    </section>
+    <section id = "products">
+      <iframe id = "video" width="560" height="315" src="https://www.youtube.com/embed/8g5eYTrMdvE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    </section>
+    <section id = "hours">
+      <div class = "grid">
+        <div class = "info">
+          <h2>Hours of Operation</h2>
+          <p>We work from 8am to 6pm on the weekdays.</p>
+          <p>We work from 9am to 5pm on Saturday/Sunday</p>
+        </div>
+      </div>
+    </section>
+  </div>
+</div>
